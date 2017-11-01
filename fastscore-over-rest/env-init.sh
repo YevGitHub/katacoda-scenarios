@@ -1,4 +1,3 @@
-#!/bin/bash
 git clone https://github.com/YevGitHub/fastscore-over-rest
 apt-get -y install python-pip
 pip install -U pip
