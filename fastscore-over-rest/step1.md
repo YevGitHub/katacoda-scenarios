@@ -1,6 +1,6 @@
 List FastScore configuration:
 
-`cat config.yaml`{{execute}}
+`cat fastscore-over-rest/config.yaml`{{execute}}
 
 Connect to FastScore:
 
@@ -8,7 +8,7 @@ Connect to FastScore:
 
 Configure FastScore:
 
-`fastscore config set config.yaml`{{execute}}
+`fastscore config set fastscore-over-rest/config.yaml`{{execute}}
 
 Show FastScore fleet status
 `fastscore fleet -v`{{execute}}

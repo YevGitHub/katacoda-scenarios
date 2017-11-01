@@ -1,1 +1,3 @@
-In the final step...
+Now, let's score some data against using REST transport.
+
+

@@ -1,4 +1,4 @@
-git clone https://github.com/YevGitHub/katacoda-scenarios
+git clone https://github.com/YevGitHub/fastscore-over-rest
 pip install docker-compose
 docker volume create --name=db
 docker-compose -f fastscore-over-rest/docker-compose.yml up -d
