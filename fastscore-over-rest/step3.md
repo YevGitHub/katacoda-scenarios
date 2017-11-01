@@ -13,7 +13,7 @@ Inspect streams:
 Send data to scoring:
 `fastscore model input 0`{{execute}}
 
-Enter any number and press <Enter> twice.
+Enter any number and press Enter key twice.
 
 Now, retrieve the results:
 `fastscore model output 1`{{execute}}
