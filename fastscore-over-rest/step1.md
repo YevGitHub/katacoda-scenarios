@@ -1,6 +1,9 @@
 Let's install FastScore CLI. Please run the following command:
 `fastscore-over-rest/install-fastscore-cli.sh 1.6`{{execute}}
 
+Start FastScore (might take some time to pull images):
+`docker-compose -f fastscore-over-rest/docker-compose.yml up -d
+
 List FastScore configuration:
 
 `cat fastscore-over-rest/config.yaml`{{execute}}
