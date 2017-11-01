@@ -4,7 +4,7 @@ Add new model to fastscore:
 
 Copy the below and paste into Terminal window (right-click --> Paste):
 ```
-def action(datum)
+def action(datum):
   yield datum+1
 
 ```{{copy}}
