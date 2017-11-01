@@ -1,3 +1,4 @@
+#!/bin/bash
 git clone https://github.com/YevGitHub/fastscore-over-rest
 pip install docker-compose
 docker volume create --name=db
