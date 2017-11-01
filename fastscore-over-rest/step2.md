@@ -2,7 +2,7 @@ Add new model to fastscore:
 
 `fastscore model add increment`{{execute}}
 
-Copy the following:
+Copy the below and paste into Terminal window (right-click --> Paste):
 ```
 def action(datum)
   yield datum+1
@@ -18,7 +18,7 @@ Add REST stream:
 
 `fastscore stream add rest`{{execute}}
 
-Copy the following:
+Copy the below and paste into Terminal window (right-click --> Paste)
 ```
 {
   "Version": "1.2",
