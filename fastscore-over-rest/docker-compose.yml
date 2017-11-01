@@ -1,0 +1,39 @@
+Add new model:
+
+`fastscore model add increment`{{execute}}
+
+Copy the following:
+
+```
+def action(datum):
+  yield datum+1
+```{{copy}}
+
+Press CTRL-D to commit.
+
+Make sure model was addedd successfully:
+`fastscore model list`{{execute}}
+
+`fastscore model show increment`{{execute}}
+
+Create REST stream:
+`fastscore stream add rest`{{execute}}
+
+Copy the following:
+
+```
+{
+  "Version": "1.2"
+  "Encoding": "json",
+  "Envelope": null,
+  "Loop": false,
+  "Transport": "REST"
+}
+```{{copy}}
+
+Make sure stream was added successfully:
+
+`fastscore stream list`{{execute}}
+
+`fastscore stream show rest`{{execute}}
+   
