@@ -29,7 +29,6 @@ Copy the below and paste into Terminal window (right-click --> Paste)
   "Loop": false,
   "Transport": "REST"
 }
-
 `
 
 Validate stream was added successfully:
