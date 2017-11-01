@@ -3,11 +3,13 @@ Add new model to fastscore:
 `fastscore model add increment`{{execute}}
 
 Copy the below and paste into Terminal window (right-click --> Paste):
-```
+
+```python
 def action(datum):
   yield datum+1
 
-```{{copy}}
+```
+{{copy}}
 
 Press CTRL-D.
 
@@ -20,7 +22,8 @@ Add REST stream:
 `fastscore stream add rest`{{execute}}
 
 Copy the below and paste into Terminal window (right-click --> Paste)
-```
+
+```json
 {
   "Version": "1.2",
   "Encoding": "json",
@@ -29,7 +32,8 @@ Copy the below and paste into Terminal window (right-click --> Paste)
   "Transport": "REST"
 }
 
-```{{copy}}
+```
+{{copy}}
 
 Validate stream was added successfully:
 
