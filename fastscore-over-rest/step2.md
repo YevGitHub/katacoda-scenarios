@@ -8,8 +8,7 @@ Copy the below and paste into Terminal window (right-click --> Paste):
 def action(datum):
   yield datum+1
 
-```
-{{copy}}
+```{{copy}}
 
 Press CTRL-D.
 
@@ -32,8 +31,7 @@ Copy the below and paste into Terminal window (right-click --> Paste)
   "Transport": "REST"
 }
 
-```
-{{copy}}
+```{{copy}}
 
 Validate stream was added successfully:
 
