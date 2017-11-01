@@ -1,3 +1,6 @@
+Let's install FastScore CLI. Please run the following command:
+`fastscore-over-rest/install-fastscore-cli.sh 1.6`{{execute}}
+
 List FastScore configuration:
 
 `cat fastscore-over-rest/config.yaml`{{execute}}
