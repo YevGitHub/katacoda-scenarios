@@ -9,7 +9,7 @@ def action(datum):
   yield datum+1
 `{{copy}}
 
-Press <Enter> and CTRL-D.
+Press Enter key and CTRL-D in Terminal.
 
 Validate that model was addedd successfully:
 
@@ -31,7 +31,7 @@ Copy the below and paste into Terminal window (right-click --> Paste)
 }
 `{{copy}}
 
-Press <Enter> and CTRL-D.
+Press Enter key and CTRL-D in Terminal.
 
 Validate stream was added successfully:
 
