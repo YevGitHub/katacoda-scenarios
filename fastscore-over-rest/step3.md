@@ -14,6 +14,7 @@ Send data to scoring:
 `fastscore model input`{{execute}}
 
 Type any integer number into Terminal window and press Enter key *twice*. For example:
+
 `
 14
 
