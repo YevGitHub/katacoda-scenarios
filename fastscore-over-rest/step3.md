@@ -15,7 +15,8 @@ Send data to scoring:
 
 Type any integer number into Terminal window and press Enter key *twice*. For example:
 
-`14
+`
+14
 
 `{{execute}}
 
