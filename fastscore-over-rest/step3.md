@@ -21,3 +21,6 @@ Retrieve the result with:
 You can experiment more with "fastscore model input" and type other inputs.
 
 cUrl can also be used to submit data for scoring.
+
+Stop the engine:
+`fastscore engine reset`{{execute}}
