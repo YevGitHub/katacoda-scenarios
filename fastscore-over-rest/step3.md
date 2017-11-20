@@ -11,13 +11,12 @@ Inspect streams:
 `fastscore stream inspect`{{execute}}
 
 Send data to scoring:
-`fastscore model input 0`{{execute}}
+`fastscore model input`{{execute}}
 
 Enter any number and press Enter key twice.
 
 Now, retrieve the results:
-`fastscore model output 1`{{execute}}
+`fastscore model output`{{execute}}
 
-Press CTRL-C
 
 cUrl can also be used to submit data for scoring.
