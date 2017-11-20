@@ -13,7 +13,10 @@ Inspect streams:
 Send data to scoring:
 `fastscore model input`{{execute}}
 
-Type any integer number into Terminal window and press Enter key *twice*. 
+Type any integer number into Terminal window and press Enter key *twice*.
+
+Retrieve the result with:
+`fastscore model output`{{execute}}
 
 You can experiment more with "fastscore model input" and type other inputs.
 
