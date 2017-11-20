@@ -6,9 +6,11 @@ List FastScore configuration:
 
 `cat fastscore-over-rest/config.yaml`{{execute}}
 
-Connect to FastScore:
+Connect to FastScore; note the following:
+- docker's containers are running on host01
+- FastScore exposes port 8000 for management and configuration
 
-`fastscore connect https://127.0.0.1:8000`{{execute}}
+`fastscore connect https://host01:8000`{{execute}}
 
 Configure FastScore:
 
