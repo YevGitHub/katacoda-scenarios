@@ -18,7 +18,7 @@ Type any integer number into Terminal window and press Enter key *twice*. For ex
 `
 14
 
-`{{execute}}
+`{{copy}}
 
 Now, retrieve the result:
 `fastscore model output`{{execute}}
